@@ -3,3 +3,4 @@
 - 🏆 Leaderboard Winner: 
 - 📊 Chart Preview: ![](.\runs\Run_20250827_181108\chart.png)
 - 📁 Archive: [Run_20250827_181108](./runs/Run_20250827_181108/)
+![Latency Chart](./runs/Run_20250827_181108/chart.png)
