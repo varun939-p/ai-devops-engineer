@@ -1,0 +1,2 @@
+﻿Catch Rate: 79.6% | Avg: 0 ms | p95: 0 ms | Max: 0 ms
+Milestone: Latency tracking added

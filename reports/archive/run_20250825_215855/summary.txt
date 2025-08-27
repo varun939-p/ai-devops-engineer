@@ -1,0 +1,6 @@
+Verdict     : PASS
+Score       : 87
+p95 Latency : 142 ms
+Max Latency : 142 ms
+Catch Rate  : 96 %
+Chart Path  : C:\Users\Varun Paruchuri\ai-devops-engineer\reports\archive\run_20250825_215855\scoreboard.png

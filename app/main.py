@@ -1,9 +1,13 @@
 from fastapi import FastAPI
-from app.api.v1.bugs import router as bugs_router
-from app.api.v1.models import Base
-from app.api.v1.db import engine
-
-Base.metadata.create_all(bind=engine)
+from app.api.v1.logs import router as logs_router
+from app.db.session import engine
+from app.db.base_class import Base
+from app.models.logs import Log
 
 app = FastAPI()
-app.include_router(bugs_router, prefix="/api/v1")
+
+# Create tables
+Base.metadata.create_all(bind=engine)
+
+# Include router
+app.include_router(logs_router, prefix="/api/v1")
