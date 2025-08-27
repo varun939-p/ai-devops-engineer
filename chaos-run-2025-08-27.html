@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Chaos Replay Viewer</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        #topButton {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            padding: 10px 15px;
+            background-color: #0078D7;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none;
+            z-index: 999;
+        }
+        .banner {
+            background-color: #e0f7fa;
+            padding: 10px;
+            border-left: 6px solid #0078D7;
+            margin-bottom: 20px;
+        }
+        .thumbnail-strip {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        ✅ Phase Completed: <strong>chaos-run-2025-08-27</strong><br>
+        📘 <a href="https://www.notion.so/chaos-archive/chaos-run-2025-08-27" target="_blank">View Notion Archive</a>
+    </div>
+
+    <h1>Chaos Replay Viewer</h1>
+    <p><strong>Run ID:</strong> chaos-run-2025-08-27</p>
+    <p><strong>Timestamp:</strong> 2025-08-27T08:07:30.000Z</p>
+    <img src="file:///C:/Users/Varun Paruchuri/ai-devops-engineer/charts/chaos-run-2025-08-27.png" alt="Chaos Chart Preview" width="600" />
+
+    <h2>Leaderboard Summary</h2>
+    <p>1. node-23 (Δ+12)<br>
+2. node-17 (Δ+9)<br>
+3. node-05 (Δ+3)</p>
+
+    <h2>Replay & Gallery</h2>
+    <p><a href="https://yourdomain.com/replay/chaos-run-2025-08-27" target="_blank">▶️ Launch Replay</a></p>
+    <p><a href="https://yourdomain.com/gallery/chaos-run-2025-08-27" target="_blank">🖼️ View Full Gallery</a></p>
+
+    <h2>Gallery Thumbnails</h2>
+    <div class="thumbnail-strip">
+        <div style='text-align:center;'><img src='file:///C:/Users/Varun Paruchuri/ai-devops-engineer/gallery/chaos-run-2025-08-27/thumb1.png' width='150' style='margin:5px;border-radius:4px;' /><br><span style='font-size:12px;'>Thumbnail</span></div>
+<div style='text-align:center;'><img src='file:///C:/Users/Varun Paruchuri/ai-devops-engineer/gallery/chaos-run-2025-08-27/thumb2.png' width='150' style='margin:5px;border-radius:4px;' /><br><span style='font-size:12px;'>Thumbnail</span></div>
+<div style='text-align:center;'><img src='file:///C:/Users/Varun Paruchuri/ai-devops-engineer/gallery/chaos-run-2025-08-27/thumb3.png' width='150' style='margin:5px;border-radius:4px;' /><br><span style='font-size:12px;'>Thumbnail</span></div>
+    </div>
+
+    <button id="topButton">⬆️ Top</button>
+
+    <script>
+        const topButton = document.getElementById("topButton");
+        window.onscroll = function () {
+            topButton.style.display = (document.documentElement.scrollTop > 100) ? "block" : "none";
+        };
+        topButton.onclick = function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+    </script>
+</body>
+</html>

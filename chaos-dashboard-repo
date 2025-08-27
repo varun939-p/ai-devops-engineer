@@ -1,0 +1,36 @@
+﻿<html>
+<head>
+  <title>Chaos Run Archive Browser</title>
+</head>
+<body style='background:#f0f0f0; font-family:sans-serif'>
+  <h1 style='text-align:center; padding:20px; background:#263238; color:#fff'>Chaos Run Archive Browser</h1>
+  <div style='background:#e0f7fa; padding:15px; margin:15px; border-radius:8px; font-family:sans-serif'>
+  <h2>📊 Chaos Trend Summary</h2>
+  <p><strong>Total Runs:</strong> 1</p>
+  <p><strong>Most Affected Node:</strong> node-17</p>
+  <p><strong>Average Recovery Time:</strong> 342 sec</p>
+</div>
+  <div style='background:#fff3e0; padding:15px; margin:15px; border-radius:8px; font-family:sans-serif'>
+  <h2>🌟 Run of the Week: chaos-run-2025-08-27</h2>
+  <p><strong>Timestamp:</strong> 2025-08-27T08:07:30.000Z</p>
+  <p><strong>Duration:</strong> 342 sec</p>
+  <p><strong>Recovery:</strong> 12 sec</p>
+  <p><strong>Affected Nodes:</strong> node-23, node-17, node-10</p>
+  <p><strong>Severity:</strong> 🟠 Moderate</p>
+</div>
+  <div style='border:2px solid #ddd; padding:15px; margin:15px; border-radius:8px; background:#f9f9f9; font-family:sans-serif'>
+  <h2 style='margin-bottom:5px'>chaos-run-2025-08-27 <span style='float:right'>🟠 Moderate</span></h2>
+  <p><strong>Timestamp:</strong> 2025-08-27T08:07:30.000Z</p>
+  <p><strong>Duration:</strong> 342 sec</p>
+  <p><strong>Recovery:</strong> 12 sec</p>
+  <p><strong>Affected Nodes:</strong> node-23, node-17, node-10</p>
+  <p><strong>Recovery Δ:</strong> 0 sec</p>
+  <p><strong>Node Overlap:</strong> 0</p>
+  <p><strong>Thumbnail:</strong> ❌</p>
+  <p>
+    <a href='https://notion.local/archive/chaos-run-2025-08-27' target='_blank'>🗂️ Notion Archive</a> |
+    <a href='https://viewer.local/launch?run=chaos-run-2025-08-27' target='_blank'>🚀 Open Viewer</a>
+  </p>
+</div>
+</body>
+</html>

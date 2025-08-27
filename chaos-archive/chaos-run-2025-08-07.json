@@ -1,0 +1,9 @@
+﻿{
+    "Affected Nodes":  [
+                           "node-05",
+                           "node-10"
+                       ],
+    "Duration":  "6.47m 28s",
+    "Timestamp":  "2025-08-20T21:46:44.000Z",
+    "Recovery":  "28 s"
+}

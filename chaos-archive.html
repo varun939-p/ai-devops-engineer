@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Chaos Run Archive Browser</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { margin-bottom: 30px; }
+        .run-block { border:1px solid #ccc; padding:10px; margin-bottom:15px; border-radius:6px; }
+        #searchBox { padding:8px; width:300px; margin-bottom:20px; }
+    </style>
+</head>
+<body>
+    <h1>📦 Chaos Run Archive Browser</h1>
+    <input type="text" id="searchBox" placeholder="🔍 Filter by run ID or node..." />
+
+        <div class='run-block' data-runid='chaos-run-2025-08-27' data-nodes='node-23, node-17, node-10'>
+        <h3>chaos-run-2025-08-27</h3>
+        <p><strong>🕒 Timestamp:</strong> 2025-08-27T08:07:30.000Z</p>
+        <p><strong>⏱️ Duration:</strong> 3m 42s | <strong>🧠 Recovery:</strong> 12s</p>
+        <p><strong>⚠️ Affected Nodes:</strong> node-23, node-17, node-10</p>
+        <p>📘 <a href='https://www.notion.so/chaos-archive/chaos-run-2025-08-27' target='_blank'>Notion Archive</a> | 🖥️ <a href='file:///C:/Users/Varun Paruchuri/ai-devops-engineer/chaos-run-2025-08-27.html' target='_blank'>Open Viewer</a></p>
+        <img src='file:///C:/Users/Varun Paruchuri/ai-devops-engineer/gallery/chaos-run-2025-08-27/thumb1.png' width='200' style='border-radius:4px;' />
+    </div>
+
+    <script>
+        const searchBox = document.getElementById("searchBox");
+        searchBox.addEventListener("input", function() {
+            const query = this.value.toLowerCase();
+            document.querySelectorAll(".run-block").forEach(block => {
+                const runId = block.getAttribute("data-runid").toLowerCase();
+                const nodes = block.getAttribute("data-nodes").toLowerCase();
+                block.style.display = (runId.includes(query) || nodes.includes(query)) ? "block" : "none";
+            });
+        });
+    </script>
+</body>
+</html>
