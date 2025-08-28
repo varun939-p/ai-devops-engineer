@@ -22,3 +22,9 @@ Top alert types from recent chaos runs:
 Browse recent chaos runs and launch replays:
 
 [View Replay Launcher ?](replay.md)
+
+## ?? Chaos Timeline
+
+Explore historical chaos runs with timestamps and launch links:
+
+[View Timeline ?](timeline.md)
