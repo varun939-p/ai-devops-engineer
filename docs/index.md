@@ -16,3 +16,9 @@ Latest run summary auto-injected from chaos logs:
 Top alert types from recent chaos runs:
 
 [View Leaderboard ?](leaderboard.md)
+
+## ?? Chaos Replay Launcher
+
+Browse recent chaos runs and launch replays:
+
+[View Replay Launcher ?](replay.md)
